@@ -1,0 +1,35 @@
+
+Gegeben ist der Mehrwertsteuersatz (mwst) mit dem Prozentwert der MwSt. (z.B. mwst = 19). 
+
+Errechnet werden soll der Nettoverkaufspreis und die enthaltene Mehrwertsteuer. 
+
+Folgende Ausgaben wird erwartet: 
+
+Bruttopreis 
+Nettopreis 
+enthaltene MwSt 
+
+ 
+
+Erstellen Sie das Programm als Pseudocode. 
+
+ 
+
+Optional: Wer möchte kann diese Lösung auch als JavaScript erstellen. 
+
+begin
+Preisaufkleber
+
+    bruttopreis = 100
+    mehrwertsteuer = 1.19
+    nettopreis = bruttopreis / mehrwertsteuer
+    entahltene_mwst = bruttopreis - nettopreis
+
+Ausgabe 
+    bruttopreis = 100
+    nettopreis = 84.03361344537815
+    entahltene_mwst = 15.966386554621849
+
+end
+
+    

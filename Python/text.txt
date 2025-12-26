@@ -1,0 +1,6 @@
+.venv\Scripts\activate  
+
+cd path\to\your\project
+cd C:\Users\furka\VS Code\Python\
+
+.venv\Scripts\activate

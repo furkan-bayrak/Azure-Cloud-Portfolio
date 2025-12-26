@@ -1,0 +1,32 @@
+name: Deploy VM Fleet
+on:
+  workflow_dispatch: # Allows manual triggering
+  push:
+    paths:
+      - '04-VM-Fleet-Commander/**' # Trigger only on changes in this folder
+
+permissions:
+  id-token: write
+  contents: read
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+
+    - name: Azure Login
+      uses: azure/login@v1
+      with:
+        creds: ${{ secrets.AZURE_CREDENTIALS }}
+
+    # This step is safe to run even if the group exists!
+    - name: Create/Update Resource Group
+      run: az group create --name Fleet-Commander-RG --location norwayeast --tags Environment=Lab
+
+    - name: Deploy Bicep
+      uses: azure/arm-deploy@v1
+      with:
+        resourceGroupName: Fleet-Commander-RG
+        template: ./04-VM-Fleet-Commander/main.bicep
+        parameters: adminPassword='${{ secrets.VM_PASSWORD }}'

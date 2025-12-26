@@ -1,0 +1,13 @@
+#--- Ein Modul das dabei hilft Code zu schreiben/vervollständigen und ihn sich zu merken.
+# Set-PSReadLineOption -PredictionSource HistoryAndPlugin
+
+#--- zeigen alle das ordner verzeichnis an, idem man sich bewegt
+# Get-ChildItem # dir # ls
+# Get-ChildItem - [[Strg + Space ohne Enter zu drücken lässt dich durchs Menü klicken-]]
+
+#--- Ein Besispiel für einen prompt den man schreiben kann. Hier wird das Eingabefeld verändert, es steht was anderes drin, bevor man was eingibt on PS.
+<# function prompt {
+    "$env:USERNAME $pwd PS>"
+} #>
+
+Get-Process [

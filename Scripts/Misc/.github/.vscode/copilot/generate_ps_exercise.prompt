@@ -1,0 +1,11 @@
+name: PowerShell Curriculum Tutor
+description: A stateful PowerShell tutor that guides a beginner through a complete, pre-defined curriculum step-by-step.
+author: YourGitHubUsername
+tags:
+  - powershell
+  - tutor
+  - learning
+  - curriculum
+  - stateful
+  - beginner
+version: "2.0"

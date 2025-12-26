@@ -1,0 +1,101 @@
+<mxfile host="65bd71144e">
+    <diagram id="uE36cALkNBNLvNmdqhtJ" name="Page-1">
+        <mxGraphModel dx="1985" dy="1966" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="6" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="4" target="5">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="start" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="365.5" y="-180" width="120" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="61" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;" edge="1" parent="1" source="5" target="7">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="&lt;div&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;versuche = 1&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;angemeldet = false&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="337" y="-40" width="177" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="58" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;" edge="1" parent="1" source="7" target="56">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="&lt;div&gt;&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;while versuche &amp;lt;= 3&lt;/span&gt;&lt;/div&gt;" style="shape=loopLimit;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="313" y="90" width="225" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="50" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;" edge="1" parent="1" source="9" target="11">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="shape=loopLimit;whiteSpace=wrap;html=1;direction=west;" vertex="1" parent="1">
+                    <mxGeometry x="313" y="820" width="225" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="ende" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="365" y="1010" width="120" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="46" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;" edge="1" parent="1" source="15" target="9">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="&lt;div style=&quot;background-color: rgb(245, 245, 245); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre; color: rgb(51, 51, 51);&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;color: rgb(119, 119, 119);&quot;&gt;&lt;font color=&quot;#aa3731&quot;&gt;&lt;b&gt;Ausgabe: &lt;/b&gt;&lt;/font&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(119, 119, 119);&quot;&gt;&quot;&lt;/span&gt;&lt;span style=&quot;color: rgb(68, 140, 39);&quot;&gt;Eingabe Erfolgreich&lt;/span&gt;&lt;span style=&quot;color: rgb(119, 119, 119);&quot;&gt;&quot;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="268" y="670" width="315" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="37" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;" edge="1" parent="1" source="19" target="35">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="45" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;" edge="1" parent="1" source="19" target="15">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" value="&lt;div style=&quot;color: rgb(51, 51, 51); background-color: rgb(245, 245, 245); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;&lt;span style=&quot;color: rgb(75, 105, 198);&quot;&gt;if&lt;/span&gt;&lt;span style=&quot;color: rgb(51, 51, 51);&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: rgb(122, 62, 157);&quot;&gt;Benutzername&lt;/span&gt;&lt;span style=&quot;color: rgb(51, 51, 51);&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: rgb(119, 119, 119);&quot;&gt;==&lt;/span&gt;&lt;span style=&quot;color: rgb(51, 51, 51);&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: rgb(119, 119, 119);&quot;&gt;&quot;&lt;/span&gt;&lt;span style=&quot;color: rgb(68, 140, 39);&quot;&gt;Admin&lt;/span&gt;&lt;span style=&quot;color: rgb(119, 119, 119);&quot;&gt;&quot;&lt;/span&gt;&lt;span style=&quot;color: rgb(51, 51, 51);&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: rgb(119, 119, 119);&quot;&gt;and&lt;/span&gt;&lt;span style=&quot;color: rgb(51, 51, 51);&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: rgb(122, 62, 157);&quot;&gt;Passwort&lt;/span&gt;&lt;span style=&quot;color: rgb(51, 51, 51);&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: rgb(119, 119, 119);&quot;&gt;==&lt;/span&gt;&lt;span style=&quot;color: rgb(51, 51, 51);&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: rgb(119, 119, 119);&quot;&gt;&quot;&lt;/span&gt;&lt;span style=&quot;color: rgb(68, 140, 39);&quot;&gt;geheim&lt;/span&gt;&lt;span style=&quot;color: rgb(119, 119, 119);&quot;&gt;&quot;&lt;/span&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="159" y="485" width="533" height="130" as="geometry"/>
+                </mxCell>
+                <mxCell id="33" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;" edge="1" parent="1" source="20" target="19">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" value="&lt;div&gt;&lt;div style=&quot;background-color: rgb(245, 245, 245); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre; color: rgb(51, 51, 51);&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;color: rgb(122, 62, 157);&quot;&gt;Benutzername&lt;/span&gt;&lt;span style=&quot;color: rgb(51, 51, 51);&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: rgb(119, 119, 119);&quot;&gt;=&lt;/span&gt;&lt;span style=&quot;color: rgb(51, 51, 51);&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: rgb(51, 51, 51);&quot;&gt;&lt;font color=&quot;#aa3731&quot;&gt;&lt;b&gt;Eingabe&lt;/b&gt;&lt;/font&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(119, 119, 119);&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;color: rgb(119, 119, 119);&quot;&gt;&quot;&lt;/span&gt;&lt;span style=&quot;color: rgb(68, 140, 39);&quot;&gt;Gib deinen Benutzernamen ein: &lt;/span&gt;&lt;span style=&quot;color: rgb(119, 119, 119);&quot;&gt;&quot;&lt;/span&gt;&lt;span style=&quot;color: rgb(119, 119, 119);&quot;&gt;)&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;color: light-dark(rgb(51, 51, 51), rgb(193, 193, 193));&quot;&gt;&lt;span style=&quot;color: rgb(51, 51, 51);&quot;&gt;&amp;nbsp; &amp;nbsp; &lt;/span&gt;&lt;span style=&quot;color: rgb(122, 62, 157);&quot;&gt;Passwort&lt;/span&gt;&lt;span style=&quot;color: rgb(51, 51, 51);&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: rgb(119, 119, 119);&quot;&gt;=&lt;/span&gt;&lt;span style=&quot;color: rgb(51, 51, 51);&quot;&gt; &amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: rgb(170, 55, 49); font-weight: bold;&quot;&gt;Eingabe&lt;/span&gt;&lt;span style=&quot;color: rgb(119, 119, 119);&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;color: rgb(119, 119, 119);&quot;&gt;&quot;&lt;/span&gt;&lt;span style=&quot;color: rgb(68, 140, 39);&quot;&gt;Gib dein Passwort &amp;nbsp;ein: &lt;/span&gt;&lt;span style=&quot;color: rgb(119, 119, 119);&quot;&gt;&quot;&lt;/span&gt;&lt;span style=&quot;color: rgb(119, 119, 119);&quot;&gt;)&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="170.5" y="380" width="510" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="28" value="false" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="710" y="570" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="39" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;" edge="1" parent="1" source="35" target="38">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="35" value="versuche += 1&lt;div&gt;Ausgabe: &quot;Eingabe falsch&quot;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="810" y="520" width="160" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="47" style="edgeStyle=orthogonalEdgeStyle;html=1;" edge="1" parent="1" source="38" target="9">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="1135" y="770"/>
+                            <mxPoint x="426" y="770"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="57" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;" edge="1" parent="1" source="38">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="430" y="200" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="1135" y="200"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="38" value="if versuche &amp;lt;= 3" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="1040" y="490" width="190" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="48" value="false" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="1065" y="660" width="50" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="49" value="true" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="350" y="618" width="40" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="59" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;" edge="1" parent="1" source="56" target="20">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="56" value="" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="290.5" y="220" width="270" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="60" value="true" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="1040" y="380" width="40" height="30" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

@@ -1,0 +1,42 @@
+ 
+
+Erstellen Sie für Ihren Pseudocode „brutto_netto“ ein PAP und ein Struktogramm . 
+ 
+PAP und Struktogramm hier einfügen 
+
+ 
+
+ 
+
+Tauschen 
+
+Ein „Glas“ ist mit „Rotwein“ gefüllt und ein zweites „Glas“ ist mit „Weißwein“ gefüllt (Variablen von Typ String z.B. glas1 = „Rotwein“ 
+
+Erstellen Sie per PAP und per Struktogramm ein Verfahren um den Inhalt beider „Gläser“ zu vertauschen. Also: in dem „Glas“ wo vorher der „Rotwein“ war soll jetzt der „Weißwein“ sein und umgekehrt. 
+
+Ausgabe: Glas1 und Glas2. 
+
+PAP und Struktogramm hier einfügen 
+
+ 
+
+ 
+
+Gegeben ist ein Verkaufspreis (größer 0). Ab einen Verkaufspreis von 1000 EUR soll 10% Rabatt gegeben werden. Geben Sie den zu zahlenden  Endpreis aus. 
+ 
+
+PAP und Struktogramm hier einfügen 
+
+ 
+
+Gegeben ist eine ganze Zahl. Geben Sie aus ob diese Zahl gerade oder ungerade ist. 
+
+Ausgabe:  
+
+„Die Zahl ist gerade“ oder 
+
+„Die Zahl ist ungerade“ 
+
+PAP und Struktogramm hier einfügen 
+
+ 

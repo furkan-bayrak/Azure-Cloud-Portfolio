@@ -1,0 +1,37 @@
+- $myHashTable=@{
+    key1=100
+    apple=2.34
+    name="Furkan Bayrak"
+    key2=2
+    key3=$true
+}
+---> genau wie dictionarys in Python
+- Variable.Keys ---> zeigt alle keys (1. Wert/variable) im Hashtable an
+. variable.Values ---> zeigt alle values an, also was den keys zugeordnet wurd
+- $myHashTable.key2
+  $myHashTable["apple"]
+---> man kann die Werte auch so herausfinden
+-------------------
+$myHashTable.ContainsKey("key3")
+
+$myHashTable.ContainsValue(2)
+-----------------> so checkt man, ob der key oder Value enthalten ist im Hashtable
+................................................................................
+$myHashTable.Add("key4", "testing add function")
+$myHashTable["key5"]="added via square bracket"
+$myHashTable.key6="added via dot notation"
+--------------> so fügt man dem hashtable dinge hinzu
+............................................................
+$myHashTable.apple=0.5
+-----> so verändert man Values im Hashtable
+.............................................................
+$myHashTable.Remove("apple")
+---> .Remove entfernt key
+..................................................................
+$employee1=New-Object -TypeName PSCustomobject
+-----------> so kreirt man custom Objects
+.....................................................
+Add-Member -InputObject $employee1 -MemberType NoteProperty -Name "EmployeeID" -Value "1001"
+Add-Member -InputObject $employee1 -MemberType NoteProperty -Name "FirstName" -Value "Penny"
+Add-Member -InputObject $employee1 -MemberType NoteProperty -Name "Title" -Value "CEO"
+------> so fügt man Informationen dem Oject zu

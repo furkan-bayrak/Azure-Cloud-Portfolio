@@ -1,0 +1,3 @@
+Microsoft.Powershell.Archive
+Microsoft.Powershell.Management
+Microsoft.Powershell.Utility

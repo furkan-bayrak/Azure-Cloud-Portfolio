@@ -1,0 +1,8 @@
+# Variablen in Powershell fangen immer mit einem Dollar Zeichen an $
+# .GetType() --> nach der variable, zeigt an welcher Typ die Variable hat
+# % rechnet aus wieviel nach dem teilen übrig bleibt, den Rest
+# -eq steht für == 
+# Set-StrictMode -Version latest --> stellt ein das Variabeln die nicht zugewiesen sind als fehler erkannt werden
+# Set-StrictMode -Off --> schaltet den Modus wieder aus
+# $null --> represents nothing, an empty box
+# [int] [double] --> vor der variable, verwandelt den typen

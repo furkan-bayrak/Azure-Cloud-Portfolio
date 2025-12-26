@@ -1,0 +1,13 @@
+# --- PowerShell Profile Script ---
+
+# Only run the startup script if we are in the main PowerShell console
+# (or Windows Terminal) and NOT in the VS Code integrated terminal.
+if ($host.Name -eq 'ConsoleHost') {
+
+    # 1. Load the script file to make the function available.
+    #    Use the full, correct path to your script.
+    . "C:\Users\furka\Coding\PowerShell\Scripts\myfetch.ps1"
+
+    # 2. Now, call the function once.
+    Get-MyFetch
+}

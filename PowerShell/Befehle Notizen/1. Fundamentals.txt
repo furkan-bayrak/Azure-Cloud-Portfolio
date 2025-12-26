@@ -1,0 +1,12 @@
+- $psversiontable.PSVersion - zeigt die Powershell Version an
+- get-date -> zeigt Datum an
+- get-Service/gsv -> zeigt die (oder nicht) laufenden apps an
+   get-Date  -> zeigt das Datum deatailierter an
+- get-command -> zeigt alle befehle an die man benutzen kann
+- Get-Command -noun Service -> hilft dir nach einem bestimmten begriff zu suchen
+- get-help --> hilft dir dinge zu erklären
+- Get-Alias --> zeigt dir alle aliase an
+- Set-Location -Path C:\Users\furka\PowerShell --> bewegt dich zu einer location
+- .\ --> führt skript aus
+- Get-ExecutionPolicy --> zeigt welche skript verwendungs regeln dein computer benutzt
+- Set.ExecutionPolicy --> stellt eine ein (muss als Admin ausgeführt)

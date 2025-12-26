@@ -1,0 +1,31 @@
+- arrays are great to use for less then a 100 elements
+- array list has better performance and goof for bigger data collection
+- variable=@() is an array
+- variable.Count --> counts the elemnts in an array. Is a Method.
+|> variable.Lengh --> ähnlich aber spezifischer für Arrays. Wenn Sie sicher wissen, 
+                      dass Sie mit einem Array arbeiten, ist $myArray.Length korrekt und
+                       kann verwendet werden. Es ist auch oft ein bisschen performanter 
+                       für große Arrays, obwohl der Unterschied in den meisten Szenarien
+                        vernachlässigbar ist.
+- $myArray[0] --> zeigt die Position in der Liste bzw. dem Array an, startet mit 0, in
+                  eckigen Klammern []
+- $myArray=$myArray+"Beispiel" --> so fügt man Element der Liste/Array hinzu
+|> $myArray+="Test5" --> das += zeichen macht das gleiche
+- $myArray=$myArray -ne "Test2" --> löscht ein Elemnt aus einem Array
+- $myList=New-Object -TypeName System.Collections.ArrayList --> so erstellt man eine Liste
+- $beispiel.IsFixedSize --> zeigt ob Elemente der Varibalen hinzugefügt werden können oder nicht
+- Variable.Add --> fügt eine Elemnt einer Sammlung hinzu
+- [void]$myList.Add("Test1") --> [void] macht das in der Augabe nicht angezeigt wird
+                                  welche Position der Liste gerade was hinzugefügt wurde
+- $myList.AddRange(@("Test3", "Test4", "Test5")) --> fügt gleich mehrere Elemente der Liste hinzu
+- $myList.Remove("Test2") --> .Remove löscht dinge aus der Liste. Löscht nur das 1. Element mit dem Namen.
+- $myList.RemoveRange(0,2) --> .RemoveRange(0,2) die Zahlen in den Klammern zeigen, ab welcher Stelle der Liste wieviele ELmente entfernt werden sollen. !. Zahl ab Stelle, 2. Zahl Anzahl der Elemente.
+- $array=@()
+Measure-Command -Expression {@(0..50000).ForEach({$array+=$_})}
+
+$arrayList=New-Object -TypeName System.Collections.ArrayList
+Measure-Command -Expression {@(0..50000).ForEach({$arrayList.Add($_)})}
+--> so testet man wie lange etwas braucht zum bearbeiten
+|> $arrayList=New-Object -TypeName System.Collections.ArrayList
+Measure-Command -Expression {$arrayList.AddRange(@(0..50000))}
+--> noch schneller
